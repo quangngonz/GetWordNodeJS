@@ -1,6 +1,6 @@
-# How to use
+# Cách dùng
 
-## Install all libraries:
+## Tải thư viện:
 
 ```
 npm install
@@ -12,11 +12,9 @@ npm install
 npm start
 ```
 
-## Lấy dữ liệu trong python:
+## Cách lấy từ trong python:
 
 ```
-#get word from localhost:3000
-
 import requests
 
 word = requests.get('http://localhost:3000').text
