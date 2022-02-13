@@ -16,6 +16,4 @@ app.get("/", (_req, res) => {
 
 app.listen(process.env.PORT || 3000);
 
-console.log(
-  "Server started at http://localhost:".concat(process.env.PORT || 3000)
-);
+console.log("Server started at http://localhost:".concat(3000));
